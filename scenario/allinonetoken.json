@@ -1,0 +1,23 @@
+{
+	"name": "RTA-Token",
+	"scopes": [
+		"UserSessionAnonymization",
+		"DataPrivacy",
+		"LogImport",
+		"DssFileManagement",
+		"CaptureRequestData",
+		"LogExport",
+		"ActiveGateCertManagement",
+		"DataExport",
+		"MaintenanceWindows",
+		"RumJavaScriptTagManagement",
+		"DataImport",
+		"InstallerDownload",
+		"ReadSyntheticData",
+		"ReadConfig",
+		"TenantTokenManagement",
+		"DTAQLAccess",
+		"ExternalSyntheticIntegration",
+		"WriteConfig"
+	]
+}

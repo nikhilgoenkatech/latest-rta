@@ -1,0 +1,107 @@
+2021-01-05 03:41:22,442 - root - INFO - ----------------------------------------------
+2021-01-05 03:41:22,442 - root - INFO - Starting Dynatrace RTA - Rest Tenant Automation
+
+2021-01-05 03:41:22,442 - root - INFO - ====== Remove action called ======
+2021-01-05 03:41:23,285 - root - WARNING - disable_tenant:	keptn.demo@dynatrace.com: code:400 reason:Bad Request Content:b'{"error":{"code":400,"message":"Deleted environment UUID 014c11e6-92e6-4b86-993c-6ea15ee75e20."}}'
+2021-01-05 03:41:23,286 - root - INFO - disable_tenant:	keptn.demo@dynatrace.com:400
+2021-01-05 03:41:24,049 - root - WARNING - delete_tenant:	keptn.demo@dynatrace.com: code:404 reason:Not Found Content:b'{"error":{"code":404,"message":"HTTP 404 Not Found"}}'
+2021-01-05 03:41:24,050 - root - INFO - delete_tenant:	keptn.demo@dynatrace.com:404
+2021-01-05 03:41:24,813 - root - WARNING - delete_user_group:	keptn.demo@dynatrace.com: code:404 reason:Not Found Content:b''
+2021-01-05 03:41:24,814 - root - INFO - delete_user_group:	keptn.demo@dynatrace.com:404
+2021-01-05 03:41:25,592 - root - INFO - delete_user:	keptn.demo@dynatrace.com:OK
+2021-01-05 03:41:25,614 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2021-01-05 03:41:25,741 - root - WARNING - problem deleting ec2-instance:An error occurred (InvalidInstanceID.NotFound) when calling the TerminateInstances operation: The instance ID 'i-0a9315fdc6369b4de' does not exist
+2021-01-05 03:41:25,766 - root - WARNING - delete_code_labs:	keptn.demo@dynatrace.com: code:401 reason:Unauthorized Content:b'{"message":"Invalid Token"}'
+2021-01-05 03:41:25,766 - root - INFO - delete_code_labs:	keptn.demo@dynatrace.com:401
+2021-01-05 03:41:26,601 - root - INFO - disable_tenant:	aiops.demo@dynatrace.com:No Content
+2021-01-05 03:41:30,908 - root - INFO - delete_tenant:	aiops.demo@dynatrace.com:No Content
+2021-01-05 03:41:31,764 - root - INFO - delete_user_group:	aiops.demo@dynatrace.com:OK
+2021-01-05 03:41:32,560 - root - INFO - delete_user:	aiops.demo@dynatrace.com:OK
+2021-01-05 03:41:32,724 - root - INFO - delete_ec2_instance:	aiops.demo@dynatrace.com:OK
+2021-01-05 03:41:32,739 - root - WARNING - delete_code_labs:	aiops.demo@dynatrace.com: code:401 reason:Unauthorized Content:b'{"message":"Invalid Token"}'
+2021-01-05 03:41:32,739 - root - INFO - delete_code_labs:	aiops.demo@dynatrace.com:401
+2021-01-05 03:41:32,740 - root - INFO - Result file csv/temp/2021-01-05_03-41-32-attendees.csv written.
+2021-01-05 03:41:32,740 - root - INFO - Result file csv/attendees.csv written.
+2021-01-05 03:41:37,300 - root - INFO - ----------------------------------------------
+2021-01-05 03:41:37,300 - root - INFO - Starting Dynatrace RTA - Rest Tenant Automation
+
+2021-01-05 03:41:37,300 - root - INFO - ====== Create action called ======
+2021-01-05 03:41:38,075 - root - WARNING - create_tenant:	keptn.demo@dynatrace.com: code:400 reason:Bad Request Content:b'{"error":{"code":400,"message":"Environment with name Keptn User already exists."}}'
+2021-01-05 03:41:38,076 - root - INFO - create_tenant:	keptn.demo@dynatrace.com:400
+2021-01-05 03:41:41,338 - root - INFO - create_tenant:	aiops.demo@dynatrace.com:Created
+2021-01-05 03:41:42,205 - root - INFO - create_user_group:	aiops.demo@dynatrace.com:OK
+2021-01-05 03:41:43,257 - root - INFO - create_user:	aiops.demo@dynatrace.com:OK
+2021-01-05 03:41:43,281 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2021-01-05 03:41:44,847 - root - INFO - create_ec2_instance:	aiops.demo@dynatrace.com:OK
+2021-01-05 03:41:44,848 - root - INFO - Applications:	aiops.demo@dynatrace.com:{}
+2021-01-05 03:41:44,849 - root - INFO - AppDetectionRules:	aiops.demo@dynatrace.com:{}
+2021-01-05 03:41:44,849 - root - INFO - RequestAttributes:	aiops.demo@dynatrace.com:{}
+2021-01-05 03:41:44,849 - root - INFO - Autotagging rules:	aiops.demo@dynatrace.com:{}
+2021-01-05 03:41:44,849 - root - INFO - Management zones:	aiops.demo@dynatrace.com:{}
+2021-01-05 03:41:44,849 - root - INFO - Frequent issues:	aiops.demo@dynatrace.com:{}
+2021-01-05 03:41:44,849 - root - INFO - CustomJava services:	aiops.demo@dynatrace.com:{}
+2021-01-05 03:41:44,849 - root - INFO - Dashboards:	aiops.demo@dynatrace.com:{}
+2021-01-05 03:41:44,849 - root - INFO - CustomJava services:	aiops.demo@dynatrace.com:{}
+2021-01-05 03:41:44,868 - root - INFO - Result file csv/temp/2021-01-05_03-41-44-attendees.csv written.
+2021-01-05 03:41:44,869 - root - INFO - Result file csv/attendees.csv written.
+2021-01-05 03:41:52,466 - root - INFO - ----------------------------------------------
+2021-01-05 03:41:52,466 - root - INFO - Starting Dynatrace RTA - Rest Tenant Automation
+
+2021-01-05 03:41:52,466 - root - INFO - ====== Remove action called ======
+2021-01-05 03:41:53,242 - root - WARNING - disable_tenant:	keptn.demo@dynatrace.com: code:400 reason:Bad Request Content:b'{"error":{"code":400,"message":"Deleted environment UUID 014c11e6-92e6-4b86-993c-6ea15ee75e20."}}'
+2021-01-05 03:41:53,242 - root - INFO - disable_tenant:	keptn.demo@dynatrace.com:400
+2021-01-05 03:41:54,009 - root - WARNING - delete_tenant:	keptn.demo@dynatrace.com: code:404 reason:Not Found Content:b'{"error":{"code":404,"message":"HTTP 404 Not Found"}}'
+2021-01-05 03:41:54,009 - root - INFO - delete_tenant:	keptn.demo@dynatrace.com:404
+2021-01-05 03:41:54,782 - root - WARNING - delete_user_group:	keptn.demo@dynatrace.com: code:404 reason:Not Found Content:b''
+2021-01-05 03:41:54,782 - root - INFO - delete_user_group:	keptn.demo@dynatrace.com:404
+2021-01-05 03:41:55,555 - root - INFO - delete_user:	keptn.demo@dynatrace.com:OK
+2021-01-05 03:41:55,578 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2021-01-05 03:41:55,702 - root - WARNING - problem deleting ec2-instance:An error occurred (InvalidInstanceID.NotFound) when calling the TerminateInstances operation: The instance ID 'i-0a9315fdc6369b4de' does not exist
+2021-01-05 03:41:55,717 - root - WARNING - delete_code_labs:	keptn.demo@dynatrace.com: code:401 reason:Unauthorized Content:b'{"message":"Invalid Token"}'
+2021-01-05 03:41:55,717 - root - INFO - delete_code_labs:	keptn.demo@dynatrace.com:401
+2021-01-05 03:41:56,551 - root - INFO - disable_tenant:	aiops.demo@dynatrace.com:No Content
+2021-01-05 03:41:57,321 - root - INFO - delete_tenant:	aiops.demo@dynatrace.com:No Content
+2021-01-05 03:41:58,178 - root - INFO - delete_user_group:	aiops.demo@dynatrace.com:OK
+2021-01-05 03:41:58,964 - root - INFO - delete_user:	aiops.demo@dynatrace.com:OK
+2021-01-05 03:41:59,160 - root - INFO - delete_ec2_instance:	aiops.demo@dynatrace.com:OK
+2021-01-05 03:41:59,175 - root - WARNING - delete_code_labs:	aiops.demo@dynatrace.com: code:401 reason:Unauthorized Content:b'{"message":"Invalid Token"}'
+2021-01-05 03:41:59,176 - root - INFO - delete_code_labs:	aiops.demo@dynatrace.com:401
+2021-01-05 03:41:59,177 - root - INFO - Result file csv/temp/2021-01-05_03-41-59-attendees.csv written.
+2021-01-05 03:41:59,177 - root - INFO - Result file csv/attendees.csv written.
+2021-01-05 03:43:36,898 - root - INFO - ----------------------------------------------
+2021-01-05 03:43:36,898 - root - INFO - Starting Dynatrace RTA - Rest Tenant Automation
+
+2021-01-05 03:43:36,898 - root - INFO - ====== Remove action called ======
+2021-01-05 03:43:37,670 - root - WARNING - disable_tenant:	keptn.demo@dynatrace.com: code:400 reason:Bad Request Content:b'{"error":{"code":400,"message":"Deleted environment UUID 014c11e6-92e6-4b86-993c-6ea15ee75e20."}}'
+2021-01-05 03:43:37,671 - root - INFO - disable_tenant:	keptn.demo@dynatrace.com:400
+2021-01-05 03:43:38,432 - root - WARNING - delete_tenant:	keptn.demo@dynatrace.com: code:404 reason:Not Found Content:b'{"error":{"code":404,"message":"HTTP 404 Not Found"}}'
+2021-01-05 03:43:38,433 - root - INFO - delete_tenant:	keptn.demo@dynatrace.com:404
+2021-01-05 03:43:39,200 - root - WARNING - delete_user_group:	keptn.demo@dynatrace.com: code:404 reason:Not Found Content:b''
+2021-01-05 03:43:39,200 - root - INFO - delete_user_group:	keptn.demo@dynatrace.com:404
+2021-01-05 03:43:39,988 - root - INFO - delete_user:	keptn.demo@dynatrace.com:OK
+2021-01-05 03:43:40,010 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2021-01-05 03:43:40,141 - root - WARNING - problem deleting ec2-instance:An error occurred (InvalidInstanceID.NotFound) when calling the TerminateInstances operation: The instance ID 'i-0a9315fdc6369b4de' does not exist
+2021-01-05 03:43:40,157 - root - WARNING - delete_code_labs:	keptn.demo@dynatrace.com: code:401 reason:Unauthorized Content:b'{"message":"Invalid Token"}'
+2021-01-05 03:43:40,158 - root - INFO - delete_code_labs:	keptn.demo@dynatrace.com:401
+2021-01-05 03:43:40,929 - root - WARNING - disable_tenant:	aiops.demo@dynatrace.com: code:400 reason:Bad Request Content:b'{"error":{"code":400,"message":"Deleted environment UUID f1343d20-5c97-4a78-bba4-ef0e50670e86."}}'
+2021-01-05 03:43:40,929 - root - INFO - disable_tenant:	aiops.demo@dynatrace.com:400
+2021-01-05 03:43:41,696 - root - WARNING - delete_tenant:	aiops.demo@dynatrace.com: code:404 reason:Not Found Content:b'{"error":{"code":404,"message":"HTTP 404 Not Found"}}'
+2021-01-05 03:43:41,696 - root - INFO - delete_tenant:	aiops.demo@dynatrace.com:404
+2021-01-05 03:43:42,460 - root - WARNING - delete_user_group:	aiops.demo@dynatrace.com: code:404 reason:Not Found Content:b''
+2021-01-05 03:43:42,460 - root - INFO - delete_user_group:	aiops.demo@dynatrace.com:404
+2021-01-05 03:43:43,235 - root - INFO - delete_user:	aiops.demo@dynatrace.com:OK
+2021-01-05 03:43:43,463 - root - INFO - delete_ec2_instance:	aiops.demo@dynatrace.com:OK
+2021-01-05 03:43:43,478 - root - WARNING - delete_code_labs:	aiops.demo@dynatrace.com: code:401 reason:Unauthorized Content:b'{"message":"Invalid Token"}'
+2021-01-05 03:43:43,479 - root - INFO - delete_code_labs:	aiops.demo@dynatrace.com:401
+2021-01-05 03:43:43,479 - root - INFO - Result file csv/temp/2021-01-05_03-43-43-attendees.csv written.
+2021-01-05 03:43:43,480 - root - INFO - Result file csv/attendees.csv written.
+2021-03-26 05:33:14,256 - root - INFO - ----------------------------------------------
+2021-03-26 05:33:14,256 - root - INFO - Starting Dynatrace RTA - Rest Tenant Automation
+
+2021-03-26 05:33:14,256 - root - WARNING - You need to give at least one argument
+2021-03-26 05:33:21,331 - root - INFO - ----------------------------------------------
+2021-03-26 05:33:21,331 - root - INFO - Starting Dynatrace RTA - Rest Tenant Automation
+
+2021-03-26 05:33:21,331 - root - INFO - ====== Create action called ======
+2021-03-26 05:33:21,370 - root - ERROR - None
+2021-03-26 05:33:21,371 - root - INFO - Result file csv/temp/error-2021-03-26_05-33-21-attendees.csv written.

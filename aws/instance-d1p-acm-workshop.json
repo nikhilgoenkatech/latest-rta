@@ -1,0 +1,51 @@
+{
+	"aws_region": "us-east-2",
+	"instanceDetails": {
+		"userData": "install-workshop-tech-stack.sh",
+		"imageId": "ami-0e82959d4ed12de3f",
+		"keyName": "AIOps",
+		"instanceType": "t2.large",
+		"securityGroups": [
+			"ANZ_ACM_Security_Group"
+		],
+		"securityGroupIds": [
+			"sg-09185389061a24994"
+		],
+		"blockDeviceMappings": [
+			{
+				"DeviceName": "/dev/sda1",
+				"Ebs": {
+					"VolumeSize": 32,
+					"DeleteOnTermination": true
+				}
+			}
+		],
+		"tagSpecifications": [
+			{
+				"ResourceType": "instance",
+				"Tags": [
+					{
+						"Key": "Name",
+						"Value": ""
+					},
+					{
+						"Key": "Workshop",
+						"Value": "Dynatrace"
+					},
+					{
+						"Key": "tenantUrl",
+						"Value": ""
+					},
+					{
+						"Key": "attendee",
+						"Value": ""
+					},
+					{
+						"Key": "email",
+						"Value": ""
+					}
+				]
+			}
+		]
+	}
+}

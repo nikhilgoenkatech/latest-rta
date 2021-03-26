@@ -1,0 +1,15 @@
+{
+    "steps": [],
+    "role": [""],
+    "permission": [],
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "password": "pass",
+    "customerId": "5fb4d0da5adc2a8507b01764",
+    "isActive": true,
+    "instanceId": "",
+    "tenant": "",
+    "steps":["5f9bec758307be3cc5803e15"]
+}
+

@@ -1,0 +1,44 @@
+{
+	"cmc": {
+		"cmc_url": "https://xxx-managed-server/",
+		"cmc_token": "my-token"
+	},
+	"labs_register_api": "https://step.dynatrace.com/api/user/register",
+        "labs_delete_api":"https://step.dynatrace.com/api/user/",
+	"csv_dir": "csv",
+	"csv_file": "attendees.csv",
+	"log_dir": "log",
+	"log_file": "rta.log",
+	"scenario": "",
+	"ssh": {
+		"ssh_dir": "ssh",
+		"cmd_file": "cmd.sh"
+	},
+	"aws": {
+		"aws_dir": "aws",
+		"aws_config": "instance-d1p-k8s-prom-workshop.json"
+	},
+	"action_test": {
+		"tenant_api": true,
+		"ssh_connection": true,
+		"easytravel_ping": false 
+	},
+	"action_create": {
+		"create_tenant": true,
+		"create_user_group": true,
+		"create_user": true,
+		"create_allinone_token": false,
+		"create_ec2_instance": true,
+		"fetch_ec2_instance": false,
+		"set_up_env": true,
+		"setup_code_labs": true
+	},
+	"action_remove": {
+		"deactivate_tenant": true,
+		"remove_tenant": true,
+		"delete_user_group": true,
+		"delete_user": true,
+		"delete_ec2_instance":true,
+		"delete_code_labs": true
+	}
+}
